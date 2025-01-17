@@ -17,7 +17,7 @@
 <script setup>
   import { reactive } from 'vue';
   import { onLoad, onPageScroll } from '@dcloudio/uni-app';
-  import DiyApi from '@/sheep/api/promotion/diy';
+  import DiyApi from '@jinghe-lvdi/core/src/api/promotion/diy';
 
   const state = reactive({
     name: '',

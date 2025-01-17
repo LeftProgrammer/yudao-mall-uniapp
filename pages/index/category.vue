@@ -60,12 +60,12 @@
   import firstOne from './components/first-one.vue';
   import firstTwo from './components/first-two.vue';
   import sheep from '@/sheep';
-  import CategoryApi from '@/sheep/api/product/category';
-  import SpuApi from '@/sheep/api/product/spu';
+  import CategoryApi from '@jinghe-lvdi/core/src/api/product/category';
+  import SpuApi from '@jinghe-lvdi/core/src/api/product/spu';
   import { onLoad } from '@dcloudio/uni-app';
   import { computed, reactive } from 'vue';
   import _ from 'lodash-es';
-  import { handleTree } from '@/sheep/util';
+  import { handleTree } from '@jinghe-lvdi/core/src/util';
 
   const state = reactive({
     style: 'second_one', // first_one（一级 - 样式一）, first_two（二级 - 样式二）, second_one（二级）

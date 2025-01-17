@@ -105,10 +105,10 @@
 
 <script setup>
   import sheep from '@/sheep';
-  import SpuApi from '@/sheep/api/product/spu';
+  import SpuApi from '@jinghe-lvdi/core/src/api/product/spu';
   import { computed, reactive } from 'vue';
-  import { fen2yuan } from '@/sheep/hooks/useGoods';
-  import { isEmpty } from '@/sheep/helper/utils';
+  import { fen2yuan } from '@jinghe-lvdi/core/src/hooks/useGoods';
+  import { isEmpty } from '@jinghe-lvdi/core/src/helper/utils';
 
   const sys_navBar = sheep.$platform.navbar;
   const cart = sheep.$store('cart');

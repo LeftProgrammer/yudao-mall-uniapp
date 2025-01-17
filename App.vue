@@ -35,5 +35,5 @@
 </script>
 
 <style lang="scss">
-  @import '@/sheep/scss/index.scss';
+  @import '@jinghe-lvdi/core/src/scss/index.scss';
 </style>
